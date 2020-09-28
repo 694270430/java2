@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="偶像练习生"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="简介>"
+            android:background="#ffffff"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="      《偶像练习生》是一档偶像男团竞演养成真人秀节目，1月19日起每周五20点爱奇艺全网独播。《偶像练习生》由张艺兴担任全民制作人代表，王嘉尔和欧阳靖担任 RAP 导师，李荣浩任音乐导师，程潇、周洁琼任舞蹈导师，旨在从国内外经纪公司、练习生公司推荐的100名练习生当中，通过4个月的封闭训练、舞台比拼，由全民票选出最终优胜9人组成全新偶像男团出道。
+"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="全部评论"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="✎"
+            android:background="#ffffff"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="客官，欢迎评论哦！"
+        android:textSize="10sp" />
+</LinearLayout>

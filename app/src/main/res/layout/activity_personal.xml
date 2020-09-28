@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/Pikachu_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="208man"
+            android:textSize="30sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/Pikachu_Picture"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageButton
+            android:id="@+id/Pikachu_Picture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/tx"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="我的VIP会员" />
+        <Button
+            android:id="@+id/Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="我的积分"
+            android:layout_toRightOf="@id/Vip" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="观看历史："
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="更多>"
+            android:background="#ffffff"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:id="@+id/one"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/juone"/>
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:id="@+id/two"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/zongmain"/>
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:id="@+id/three"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/manone"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="我的下载："
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="更多>"
+            android:background="#ffffff"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:id="@+id/four"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jufour"/>
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:id="@+id/five"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/zongone"/>
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:id="@+id/six"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/zongtwo"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="设置" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="个人信息" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="意见反馈" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/id_bottom_tags"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:weightSum="4"
+            android:id="@+id/id_navcontent"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:drawableTop="@drawable/main"
+                android:id="@+id/home"
+                style="@style/radio_button"
+
+                android:singleLine="true"
+                android:text="首页"
+                android:textSize="13sp"
+                android:textColor="@drawable/color"/>
+
+            <RadioButton
+                android:drawableTop="@drawable/music"
+                android:id="@+id/aduio"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="音乐馆"
+                android:textSize="13sp"
+                android:textColor="@drawable/color"/>
+
+            <RadioButton
+                android:drawableTop="@drawable/qita"
+                android:id="@+id/qita"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="社区"
+                android:textSize="13sp"
+                android:textColor="@drawable/color" />
+
+            <RadioButton
+                android:checked="true"
+                android:drawableTop="@drawable/my"
+                android:id="@+id/personal"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="我的"
+                android:textSize="13sp"
+                android:textColor="@drawable/color" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
+
+
+

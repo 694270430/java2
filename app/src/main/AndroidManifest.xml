@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wyk.sxau.musicvideo208">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tze"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tze"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".first">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ying">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".man">
+        <intent-filter>
+            <action android:name="com.wyk.sxau.MYACTION"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+    </activity>
+        <activity android:name=".zong">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ti">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".mv">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ju">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".music_main">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".music_playerone">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".music_playertwo">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".music_playerthree">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".music_playerfour">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".music_playerfive">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".music_playersix">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ju_main"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ying_main">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".man_main">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".zong_main">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ti_main">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".mv_main">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".personal">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="com.wyk.sxau.MYACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".shequ">
+
+        </activity>
+    </application>
+
+</manifest>

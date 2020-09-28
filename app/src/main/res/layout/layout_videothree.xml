@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="海贼王"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="简介>"
+            android:background="#ffffff"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="          摸索到空岛的路飞们在杰亚遇到了海贼勃朗峰·克里特。板球是400年前成为绘本的“骗子诺兰”的不光彩的探险家的子孙。但是，板球的祖先诺兰不是说谎，而是真的去了空岛。作为证据，路飞们知道了在航海日志中描绘的冲击的事实。然后，路飞们知道，作为去空岛的唯一线索，必须要被细菌海流吞噬。穿过强烈的海流的目的地，是在云上岛上存在的神之国·斯基亚。在喜悦的草帽一伙中出现了空之骑士·福尔和天空的居民科尼斯。但是，那里是被称为全能神的艾尔支配的国家…。"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="全部评论"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="✎"
+            android:background="#ffffff"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="客官，欢迎评论哦！"
+        android:textSize="10sp" />
+</LinearLayout>

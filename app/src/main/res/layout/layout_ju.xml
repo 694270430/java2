@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <HorizontalScrollView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_gravity="center"
+        android:fadingEdge="vertical"
+        android:paddingLeft="9.0dip"
+        android:paddingRight="9.0dip"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/recommod"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:text="推荐"
+                android:textColor="@drawable/color"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/teleplay"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:text="电视剧"
+                android:textColor="@drawable/color"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/movie"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:text="电影"
+                android:textColor="@drawable/color"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/anime"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:text="动漫"
+                android:textColor="@drawable/color"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/veriety_show"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:text="综艺"
+                android:textColor="@drawable/color"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:text="体育"
+                android:textColor="@drawable/color"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/mv"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="2dp"
+                android:gravity="center"
+                android:text="MV"
+                android:textColor="@drawable/color"
+                android:textSize="16sp" />
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_below="@+id/title"
+        android:id="@+id/recommod1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <ImageButton
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/zero"
+        android:layout_width="332dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/jumain" />
+
+        <TextView
+            android:id="@+id/zero1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/zero"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="怒海潜沙"
+            android:textColor="#727070" />
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/zero"
+        android:layout_marginLeft="153dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/right" />
+
+        <ImageButton
+            android:id="@+id/one"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/zero1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/juone" />
+
+    <TextView
+        android:id="@+id/one1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/one"
+        android:layout_marginTop="5dp"
+        android:text="致我们暖暖的小时光"
+        android:textColor="#727070" />
+
+        <ImageButton
+            android:id="@+id/two"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/one"
+            android:background="@drawable/jutwo" />
+
+        <TextView
+            android:id="@+id/two1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/two"
+            android:layout_alignTop="@+id/one1"
+            android:text="怒青江西"
+            android:textColor="#727070" />
+
+        <ImageButton
+            android:id="@+id/three"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/one1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/juthree" />
+
+        <TextView
+            android:id="@+id/three1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/three"
+            android:layout_marginTop="5dp"
+            android:text="不知道是啥"
+            android:textColor="#727070" />
+
+        <ImageButton
+            android:id="@+id/four"
+            android:layout_width="160dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/three"
+            android:background="@drawable/jufour" />
+
+        <TextView
+            android:id="@+id/four1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/two"
+            android:layout_alignTop="@+id/three1"
+            android:text="八法魔女？？"
+            android:textColor="#727070" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/id_bottom_tags"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:weightSum="4"
+            android:id="@+id/id_navcontent"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:drawableTop="@drawable/main"
+                android:id="@+id/home"
+                style="@style/radio_button"
+                android:checked="true"
+                android:singleLine="true"
+                android:text="首页"
+                android:textSize="13sp"
+                android:textColor="@drawable/color"/>
+
+            <RadioButton
+                android:drawableTop="@drawable/music"
+                android:id="@+id/aduio"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="音乐馆"
+                android:textSize="13sp"
+                android:textColor="@drawable/color"/>
+
+            <RadioButton
+                android:drawableTop="@drawable/qita"
+                android:id="@+id/qita"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="社区"
+                android:textSize="13sp"
+                android:textColor="@drawable/color" />
+
+            <RadioButton
+                android:drawableTop="@drawable/my"
+                android:id="@+id/personal"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="我的"
+                android:textSize="13sp"
+                android:textColor="@drawable/color" />
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

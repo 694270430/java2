@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#4e9dd5"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/titleimage"
+            android:layout_width="37dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/menu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@id/titleimage"
+            android:gravity="center"
+            android:text="社区在线   "
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/title">
+
+        <ImageView
+            android:layout_marginTop="7dp"
+            android:id="@+id/touxiang111"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="28dp"
+            android:background="@mipmap/laba" />
+
+        <TextView
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="81dp"
+            android:layout_marginStart="81dp"
+            android:gravity="left"
+            android:text="您现在没有任何消息~"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="27dp"
+            android:background="@mipmap/lingdang"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="27dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/zhuanjia1"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title2"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:background="@mipmap/touxiang1"
+            android:id="@+id/touxiang11"
+            android:layout_width="55dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/wangming11"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:text="小迷弟"
+            android:textColor="#0d0c0c"
+            android:textSize="13sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="85dp" />
+
+        <TextView
+            android:id="@+id/pinglun11"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wangming11"
+            android:layout_alignStart="@+id/wangming11"
+            android:layout_below="@+id/wangming11"
+            android:text="        啊！肖战   你好帅！
+                                                                         10-29 16:03:43 "
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/tupian11"
+            android:layout_width="159dp"
+            android:layout_height="108dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/wangming11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="34dp"
+            android:background="@mipmap/xiaozhan"
+            android:layout_alignLeft="@+id/wangming11" />
+
+
+        <ImageButton
+            android:id="@+id/pinglun111"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian11"
+            android:layout_marginEnd="22dp"
+            android:layout_marginTop="-28dp"
+            android:background="@mipmap/pinglun"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp" />
+
+        <TextView
+            android:textSize="13sp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tupian11"
+            android:layout_marginTop="-28dp"
+            android:layout_toLeftOf="@+id/dianzan12"
+            android:text="点赞" />
+        <TextView
+            android:id="@+id/addOne_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="+1"
+            android:textColor="#FF0000"
+            android:textSize="35dip"
+            android:visibility="gone" />
+
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginTop="-28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian11"
+            android:layout_marginEnd="84dp"
+            android:text="50"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="84dp" />
+
+        <ImageButton
+            android:id="@+id/dianzan12"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian11"
+            android:layout_marginEnd="103dp"
+            android:layout_marginTop="-28dp"
+            android:background="@mipmap/dianzan"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="103dp" />
+        <TextView
+            android:textSize="13sp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tupian11"
+            android:layout_marginTop="-28dp"
+            android:layout_toLeftOf="@+id/pinglun111"
+            android:text="回答" />
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginTop="-28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian11"
+            android:layout_marginEnd="5dp"
+            android:text="15"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/zhuanjia1"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/touxiang222"
+            android:layout_width="55dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/touxiang2"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/wangming22"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="85dp"
+            android:layout_marginStart="85dp"
+            android:text="小迷妹"
+            android:textColor="#0d0c0c"
+            android:textSize="13sp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/pinglun22"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/wangming22"
+            android:layout_alignStart="@+id/wangming22"
+            android:layout_below="@+id/wangming22"
+            android:text="        啊！王一博   你也太帅了吧！
+                                                                         10-30 12:03:43 "
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/tupian22"
+            android:layout_width="159dp"
+            android:layout_height="108dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/wangming22"
+            android:layout_marginBottom="34dp"
+            android:background="@mipmap/wangyibo"
+            android:layout_alignLeft="@+id/wangming22" />
+
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginTop="-28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian22"
+            android:layout_marginEnd="84dp"
+            android:text="50"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="84dp" />
+
+
+        <ImageButton
+            android:id="@+id/pinglun222"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian22"
+            android:layout_marginEnd="22dp"
+            android:layout_marginTop="-28dp"
+            android:background="@mipmap/pinglun"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp" />
+        <TextView
+            android:textSize="13sp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tupian22"
+            android:layout_marginTop="-28dp"
+            android:layout_toLeftOf="@+id/dianzan21"
+            android:text="点赞" />
+
+        <TextView
+            android:id="@+id/addOne_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="+1"
+            android:textColor="#FF0000"
+            android:textSize="18dip"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/dianzan21"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian22"
+            android:layout_marginEnd="103dp"
+            android:layout_marginTop="-28dp"
+            android:background="@mipmap/dianzan"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="103dp" />
+        <TextView
+            android:textSize="13sp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tupian22"
+            android:layout_marginTop="-28dp"
+            android:layout_toLeftOf="@+id/pinglun222"
+            android:text="回答" />
+        <TextView
+            android:textSize="13sp"
+            android:layout_marginTop="-28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tupian22"
+            android:layout_marginEnd="5dp"
+            android:text="15"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/id_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout
+        android:layout_below="@+id/recommod1"
+        android:id="@+id/id_bottom_tags"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:weightSum="4"
+            android:id="@+id/id_navcontent"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:drawableTop="@drawable/main"
+                android:id="@+id/home"
+                style="@style/radio_button"
+
+                android:singleLine="true"
+                android:text="首页"
+                android:textSize="13sp"
+                android:textColor="@drawable/color"/>
+
+            <RadioButton
+                android:drawableTop="@drawable/music"
+                android:id="@+id/aduio"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="音乐馆"
+                android:textSize="13sp"
+                android:textColor="@drawable/color"/>
+
+            <RadioButton
+                android:checked="true"
+                android:drawableTop="@drawable/qita"
+                android:id="@+id/qita"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="社区"
+                android:textSize="13sp"
+                android:textColor="@drawable/color" />
+
+            <RadioButton
+                android:drawableTop="@drawable/my"
+                android:id="@+id/personal"
+                style="@style/radio_button"
+                android:singleLine="true"
+                android:text="我的"
+                android:textSize="13sp"
+                android:textColor="@drawable/color" />
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>
+    <!--android:background="@color/transparent"-->
